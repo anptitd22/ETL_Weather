@@ -1,0 +1,157 @@
+{"timestamp":"2025-07-11T14:28:03.642755","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-11T14:28:03.644299","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/main.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-11T14:28:04.283093Z","level":"error","event":"WARNING: Using incubator modules: jdk.incubator.vector","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:06.223172Z","level":"error","event":"25/07/11 14:28:06 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:06.454546Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:06.455219Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:06.455689Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.326083Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.326486Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.326764Z","level":"info","event":"Current task name:etl_data_weather.load","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.327015Z","level":"info","event":"Dag name:etl_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.327274Z","level":"info","event":"extract data from file","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.358249Z","level":"info","event":"spark.hadoop.fs.s3a.connection.part.upload.timeout = 60000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.358673Z","level":"info","event":"spark.app.submitTime = 1752244086361","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.359068Z","level":"info","event":"spark.jars = /opt/spark/jars/hadoop-aws-3.3.4.jar,/opt/spark/jars/aws-java-sdk-bundle-1.12.480.jar,/opt/spark/jars/ojdbc11.jar","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.359342Z","level":"info","event":"spark.hadoop.fs.s3a.socket.recv.buffer = 65536","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.359562Z","level":"info","event":"spark.driver.port = 38681","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.359737Z","level":"info","event":"spark.hadoop.fs.s3a.impl.disable.cache = true","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.359981Z","level":"info","event":"spark.hadoop.fs.s3a.connection.request.timeout = 60000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.360239Z","level":"info","event":"spark.driver.host = 50695376be0d","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.360565Z","level":"info","event":"spark.hadoop.fs.s3a.path.style.access = true","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.360849Z","level":"info","event":"spark.rdd.compress = True","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.361076Z","level":"info","event":"spark.hadoop.fs.s3a.connection.idle.time = 60000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.361768Z","level":"info","event":"spark.app.id = local-1752244087657","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.361986Z","level":"info","event":"spark.executor.extraClassPath = /opt/spark/jars/ojdbc11.jar","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.362212Z","level":"info","event":"spark.hadoop.fs.s3a.endpoint = http://127.0.0.1:9000/","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.362475Z","level":"info","event":"spark.hadoop.fs.s3a.connection.establish.timeout = 5000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.362858Z","level":"info","event":"spark.hadoop.fs.s3a.access.key = admin","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.363245Z","level":"info","event":"spark.hadoop.fs.s3a.retry.interval = 500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.363488Z","level":"info","event":"spark.hadoop.fs.s3a.connection.maximum = 15","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.363720Z","level":"info","event":"spark.hadoop.fs.s3a.retry.limit = 5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.363970Z","level":"info","event":"spark.hadoop.fs.s3a.vectored.read.max.merged.size = 2097152","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.364175Z","level":"info","event":"spark.hadoop.fs.s3a.impl = org.apache.hadoop.fs.s3a.S3AFileSystem","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.364375Z","level":"info","event":"spark.hadoop.fs.s3a.vectored.read.min.seek.size = 131072","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.364679Z","level":"info","event":"spark.hadoop.fs.s3a.secret.key = admin12345","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.366111Z","level":"info","event":"spark.sql.adaptive.coalescePartitions.enabled = false","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.366518Z","level":"info","event":"spark.hadoop.fs.s3a.socket.send.buffer = 65536","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.366819Z","level":"info","event":"spark.hadoop.fs.s3a.fast.upload = true","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.367076Z","level":"info","event":"spark.app.startTime = 1752244086796","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.367298Z","level":"info","event":"spark.executor.extraJavaOptions = -Djava.net.preferIPv6Addresses=false -XX:+IgnoreUnrecognizedVMOptions --add-modules=jdk.incubator.vector --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED -Djdk.reflect.useDirectMethodHandle=false -Dio.netty.tryReflectionSetAccessible=true","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.367546Z","level":"info","event":"spark.sql.artifact.isolation.enabled = false","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.367756Z","level":"info","event":"spark.hadoop.fs.s3a.multipart.size = 104857600","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.367968Z","level":"info","event":"spark.master = local[*]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.368183Z","level":"info","event":"spark.executor.id = driver","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.368412Z","level":"info","event":"spark.driver.extraClassPath = /opt/spark/jars/ojdbc11.jar","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.368628Z","level":"info","event":"spark.app.name = BAITEST","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.368835Z","level":"info","event":"spark.submit.deployMode = client","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.369071Z","level":"info","event":"spark.hadoop.fs.s3a.connection.ssl.enabled = false","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.369278Z","level":"info","event":"spark.serializer.objectStreamReset = 100","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.369504Z","level":"info","event":"spark.ui.showConsoleProgress = true","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.369738Z","level":"info","event":"spark.app.initial.jar.urls = spark://50695376be0d:38681/jars/aws-java-sdk-bundle-1.12.480.jar,spark://50695376be0d:38681/jars/hadoop-aws-3.3.4.jar,spark://50695376be0d:38681/jars/ojdbc11.jar","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.370002Z","level":"info","event":"spark.hadoop.fs.s3a.threads.max = 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.370195Z","level":"info","event":"spark.hadoop.fs.s3a.aws.credentials.provider = org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.370392Z","level":"info","event":"spark.submit.pyFiles =","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.370634Z","level":"info","event":"spark.driver.extraJavaOptions = -Djava.net.preferIPv6Addresses=false -XX:+IgnoreUnrecognizedVMOptions --add-modules=jdk.incubator.vector --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED -Djdk.reflect.useDirectMethodHandle=false -Dio.netty.tryReflectionSetAccessible=true","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.370858Z","level":"info","event":"spark.hadoop.fs.s3a.attempts.maximum = 3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.371067Z","level":"info","event":"spark.hadoop.fs.s3a.threads.keepalivetime = 60000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.371262Z","level":"info","event":"spark.sql.adaptive.enabled = false","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.371459Z","level":"info","event":"spark.repl.local.jars = file:///opt/spark/jars/hadoop-aws-3.3.4.jar,file:///opt/spark/jars/aws-java-sdk-bundle-1.12.480.jar,file:///opt/spark/jars/ojdbc11.jar","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:11.371643Z","level":"info","event":"spark.hadoop.fs.s3a.connection.timeout = 60000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:12.505915Z","level":"error","event":"25/07/11 14:28:12 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.678139Z","level":"error","event":"25/07/11 14:28:13 WARN FileSystem: Failed to initialize filesystem s3a://weather-data/opt/airflow/dataset/weather_data.json: java.lang.NumberFormatException: For input string: \"24h\"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.682664Z","level":"error","event":"25/07/11 14:28:13 WARN FileStreamSink: Assume no metadata directory. Error while looking for metadata directory in the path: s3a://weather-data/opt/airflow/dataset/weather_data.json.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.686920Z","level":"error","event":"java.lang.NumberFormatException: For input string: \"24h\"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.688792Z","level":"error","event":"\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.690107Z","level":"error","event":"\tat java.base/java.lang.Long.parseLong(Long.java:711)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.692383Z","level":"error","event":"\tat java.base/java.lang.Long.parseLong(Long.java:836)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.692863Z","level":"error","event":"\tat org.apache.hadoop.conf.Configuration.getLong(Configuration.java:1607)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.693557Z","level":"error","event":"\tat org.apache.hadoop.fs.s3a.S3AUtils.longOption(S3AUtils.java:1024)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.694591Z","level":"error","event":"\tat org.apache.hadoop.fs.s3a.S3AFileSystem.initMultipartUploads(S3AFileSystem.java:1074)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.695851Z","level":"error","event":"\tat org.apache.hadoop.fs.s3a.S3AFileSystem.initialize(S3AFileSystem.java:604)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.696325Z","level":"error","event":"\tat org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:3615)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.696772Z","level":"error","event":"\tat org.apache.hadoop.fs.FileSystem.get(FileSystem.java:554)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.697638Z","level":"error","event":"\tat org.apache.hadoop.fs.Path.getFileSystem(Path.java:366)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.698074Z","level":"error","event":"\tat org.apache.spark.sql.execution.streaming.FileStreamSink$.hasMetadata(FileStreamSink.scala:55)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.699109Z","level":"error","event":"\tat org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:381)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.699696Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource.org$apache$spark$sql$catalyst$analysis$ResolveDataSource$$loadV1BatchSource(ResolveDataSource.scala:143)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.700146Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.$anonfun$applyOrElse$2(ResolveDataSource.scala:61)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.700607Z","level":"error","event":"\tat scala.Option.getOrElse(Option.scala:201)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.701067Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:61)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.701440Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource$$anonfun$apply$1.applyOrElse(ResolveDataSource.scala:45)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.701707Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$3(AnalysisHelper.scala:139)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.701961Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:86)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.702204Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.$anonfun$resolveOperatorsUpWithPruning$1(AnalysisHelper.scala:139)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.702766Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:416)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.703064Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning(AnalysisHelper.scala:135)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.703466Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUpWithPruning$(AnalysisHelper.scala:131)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.703760Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUpWithPruning(LogicalPlan.scala:37)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.704212Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp(AnalysisHelper.scala:112)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.704493Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.resolveOperatorsUp$(AnalysisHelper.scala:111)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.704755Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:37)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.704988Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:45)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.705350Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.ResolveDataSource.apply(ResolveDataSource.scala:43)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.705638Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:242)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.705897Z","level":"error","event":"\tat scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.706369Z","level":"error","event":"\tat scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.706675Z","level":"error","event":"\tat scala.collection.immutable.List.foldLeft(List.scala:79)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.707008Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:239)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.707601Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1$adapted(RuleExecutor.scala:231)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.708095Z","level":"error","event":"\tat scala.collection.immutable.List.foreach(List.scala:334)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.708407Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:231)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.708681Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:290)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.708964Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$execute$1(Analyzer.scala:286)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.709240Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.AnalysisContext$.withNewAnalysisContext(Analyzer.scala:234)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.709487Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:286)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.710014Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:249)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.710295Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:201)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.710658Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:89)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.711124Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:201)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.711487Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.resolveInFixedPoint(HybridAnalyzer.scala:190)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.711802Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.$anonfun$apply$1(HybridAnalyzer.scala:76)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.712098Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.withTrackedAnalyzerBridgeState(HybridAnalyzer.scala:111)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.712412Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.resolver.HybridAnalyzer.apply(HybridAnalyzer.scala:71)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.712704Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:280)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.712985Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:423)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.713428Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:280)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.713720Z","level":"error","event":"\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$2(QueryExecution.scala:110)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.714105Z","level":"error","event":"\tat org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:148)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.714470Z","level":"error","event":"\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:278)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.714735Z","level":"error","event":"\tat org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:654)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.715581Z","level":"error","event":"\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:278)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.716236Z","level":"error","event":"\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.716520Z","level":"error","event":"\tat org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:277)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.716810Z","level":"error","event":"\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$lazyAnalyzed$1(QueryExecution.scala:110)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.717435Z","level":"error","event":"\tat scala.util.Try$.apply(Try.scala:217)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.717922Z","level":"error","event":"\tat org.apache.spark.util.Utils$.doTryWithCallerStacktrace(Utils.scala:1378)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.718768Z","level":"error","event":"\tat org.apache.spark.util.LazyTry.tryT$lzycompute(LazyTry.scala:46)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.719557Z","level":"error","event":"\tat org.apache.spark.util.LazyTry.tryT(LazyTry.scala:46)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.719940Z","level":"error","event":"\tat org.apache.spark.util.LazyTry.get(LazyTry.scala:58)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.720282Z","level":"error","event":"\tat org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:121)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.720576Z","level":"error","event":"\tat org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:80)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.720874Z","level":"error","event":"\tat org.apache.spark.sql.classic.Dataset$.$anonfun$ofRows$1(Dataset.scala:115)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.721176Z","level":"error","event":"\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:804)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.721452Z","level":"error","event":"\tat org.apache.spark.sql.classic.Dataset$.ofRows(Dataset.scala:113)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.721774Z","level":"error","event":"\tat org.apache.spark.sql.classic.DataFrameReader.load(DataFrameReader.scala:109)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.722179Z","level":"error","event":"\tat org.apache.spark.sql.classic.DataFrameReader.load(DataFrameReader.scala:58)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.722490Z","level":"error","event":"\tat org.apache.spark.sql.DataFrameReader.json(DataFrameReader.scala:296)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.722818Z","level":"error","event":"\tat org.apache.spark.sql.classic.DataFrameReader.json(DataFrameReader.scala:150)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.723104Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.723389Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.723673Z","level":"error","event":"\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.724016Z","level":"error","event":"\tat java.base/java.lang.reflect.Method.invoke(Method.java:569)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.724303Z","level":"error","event":"\tat py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.724854Z","level":"error","event":"\tat py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.725138Z","level":"error","event":"\tat py4j.Gateway.invoke(Gateway.java:282)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.725500Z","level":"error","event":"\tat py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.725789Z","level":"error","event":"\tat py4j.commands.CallCommand.execute(CallCommand.java:79)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.726113Z","level":"error","event":"\tat py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.726831Z","level":"error","event":"\tat py4j.ClientServerConnection.run(ClientServerConnection.java:108)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.727330Z","level":"error","event":"\tat java.base/java.lang.Thread.run(Thread.java:840)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.727943Z","level":"error","event":"25/07/11 14:28:13 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.752654Z","level":"error","event":"25/07/11 14:28:13 WARN FileSystem: Failed to initialize filesystem s3a://weather-data/opt/airflow/dataset/weather_data.json: java.lang.NumberFormatException: For input string: \"24h\"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.838515","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"NumberFormatException","exc_value":"For input string: \"24h\"","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":825,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1088,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":408,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":212,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":235,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/opt/airflow/dags/main.py","lineno":22,"name":"run_etl_weather"},{"filename":"/opt/airflow/dags/etl_data_weather.py","lineno":27,"name":"extract_data_weather"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/readwriter.py","lineno":468,"name":"json"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/py4j/java_gateway.py","lineno":1362,"name":"__call__"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/pyspark/errors/exceptions/captured.py","lineno":288,"name":"deco"}]}]}
+{"timestamp":"2025-07-11T14:28:13.844118Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.844565Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.844891Z","level":"info","event":"Task:<Task(PythonOperator): etl_data_weather.load>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T14:28:13.845314Z","level":"info","event":"Failure caused by For input string: \"24h\"","chan":"stdout","logger":"task"}

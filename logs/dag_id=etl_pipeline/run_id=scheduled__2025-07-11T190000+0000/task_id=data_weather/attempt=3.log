@@ -1,0 +1,18 @@
+{"timestamp":"2025-07-11T19:05:35.427810","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-11T19:05:35.428348","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/main.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-11T19:05:35.874540Z","level":"error","event":"WARNING: Using incubator modules: jdk.incubator.vector","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T19:05:38.090405Z","level":"error","event":"25/07/11 19:05:38 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T19:05:38.376405Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T19:05:38.376916Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T19:05:38.377260Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T19:05:39.573363Z","level":"error","event":"25/07/11 19:05:39 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T19:05:45.145455Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:05:45.145920Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:05:45.146223Z","level":"info","event":"Current task name:data_weather","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:05:45.146441Z","level":"info","event":"Dag name:etl_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:05:45.384503Z","level":"info","event":"Dữ liệu đã lưu: weather_data.json","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:05:45.385454","level":"info","event":"Done. Returned value was: weather_data.json","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-11T19:05:45.385691","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0197fae0-eaf4-7f2d-a0ec-6cbe9eed9415'), task_id='data_weather', dag_id='etl_pipeline', run_id='scheduled__2025-07-11T19:00:00+00:00', try_number=3, map_index=-1, hostname='f3b2998412a1', context_carrier={}, task=<Task(PythonOperator): data_weather>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=3, start_date=datetime.datetime(2025, 7, 11, 19, 5, 34, 728877, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}
+{"timestamp":"2025-07-11T19:05:45.421780Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:05:45.422288Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:05:45.422708Z","level":"info","event":"Task operator:<Task(PythonOperator): data_weather>","chan":"stdout","logger":"task"}

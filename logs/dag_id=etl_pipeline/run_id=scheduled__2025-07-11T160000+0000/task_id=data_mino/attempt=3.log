@@ -1,0 +1,251 @@
+{"timestamp":"2025-07-11T16:16:11.468472","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-11T16:16:11.469504","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/main.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-11T16:16:12.243308Z","level":"error","event":"WARNING: Using incubator modules: jdk.incubator.vector","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:14.836899Z","level":"error","event":"25/07/11 16:16:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.095860Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.103579Z","level":"error","event":"25/07/11 16:16:15 WARN DependencyUtils: Local jar /opt/spark/jars/core-2.20.158.jar does not exist, skipping.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.105979Z","level":"error","event":"25/07/11 16:16:15 WARN DependencyUtils: Local jar /opt/spark/jars/auth-2.20.158.jar does not exist, skipping.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.106545Z","level":"error","event":"25/07/11 16:16:15 WARN DependencyUtils: Local jar /opt/spark/jars/s3-2.20.158.jar does not exist, skipping.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.106979Z","level":"error","event":"25/07/11 16:16:15 WARN DependencyUtils: Local jar /opt/spark/jars/utils-2.20.158.jar does not exist, skipping.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.107471Z","level":"error","event":"25/07/11 16:16:15 WARN DependencyUtils: Local jar /opt/spark/jars/awscore-2.20.158.jar does not exist, skipping.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.107844Z","level":"error","event":"25/07/11 16:16:15 WARN DependencyUtils: Local jar /opt/spark/jars/sdk-core-2.20.158.jar does not exist, skipping.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.108170Z","level":"error","event":"25/07/11 16:16:15 WARN DependencyUtils: Local jar /opt/spark/jars/http-client-spi-2.20.158.jar does not exist, skipping.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.519639Z","level":"error","event":"25/07/11 16:16:15 INFO SparkContext: Running Spark version 4.0.0","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.521829Z","level":"error","event":"25/07/11 16:16:15 INFO SparkContext: OS info Linux, 5.15.167.4-microsoft-standard-WSL2, amd64","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.523397Z","level":"error","event":"25/07/11 16:16:15 INFO SparkContext: Java version 17.0.15","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.573715Z","level":"error","event":"25/07/11 16:16:15 INFO ResourceUtils: ==============================================================","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.574489Z","level":"error","event":"25/07/11 16:16:15 INFO ResourceUtils: No custom resources configured for spark.driver.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.575102Z","level":"error","event":"25/07/11 16:16:15 INFO ResourceUtils: ==============================================================","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.576345Z","level":"error","event":"25/07/11 16:16:15 INFO SparkContext: Submitted application: BAITEST","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.620045Z","level":"error","event":"25/07/11 16:16:15 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.627239Z","level":"error","event":"25/07/11 16:16:15 INFO ResourceProfile: Limiting resource is cpu","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.628387Z","level":"error","event":"25/07/11 16:16:15 INFO ResourceProfileManager: Added ResourceProfile id: 0","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.712716Z","level":"error","event":"25/07/11 16:16:15 INFO SecurityManager: Changing view acls to: airflow","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.714240Z","level":"error","event":"25/07/11 16:16:15 INFO SecurityManager: Changing modify acls to: airflow","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.715524Z","level":"error","event":"25/07/11 16:16:15 INFO SecurityManager: Changing view acls groups to: airflow","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.716836Z","level":"error","event":"25/07/11 16:16:15 INFO SecurityManager: Changing modify acls groups to: airflow","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:15.720364Z","level":"error","event":"25/07/11 16:16:15 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: airflow groups with view permissions: EMPTY; users with modify permissions: airflow; groups with modify permissions: EMPTY; RPC SSL disabled","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.090893Z","level":"error","event":"25/07/11 16:16:16 INFO Utils: Successfully started service 'sparkDriver' on port 44419.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.130565Z","level":"error","event":"25/07/11 16:16:16 INFO SparkEnv: Registering MapOutputTracker","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.146839Z","level":"error","event":"25/07/11 16:16:16 INFO SparkEnv: Registering BlockManagerMaster","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.174987Z","level":"error","event":"25/07/11 16:16:16 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.176162Z","level":"error","event":"25/07/11 16:16:16 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.181073Z","level":"error","event":"25/07/11 16:16:16 INFO SparkEnv: Registering BlockManagerMasterHeartbeat","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.209275Z","level":"error","event":"25/07/11 16:16:16 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-86088154-a5b5-4828-a14e-bb3aa2ef89df","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.246992Z","level":"error","event":"25/07/11 16:16:16 INFO SparkEnv: Registering OutputCommitCoordinator","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.496803Z","level":"error","event":"25/07/11 16:16:16 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.615605Z","level":"error","event":"25/07/11 16:16:16 INFO Utils: Successfully started service 'SparkUI' on port 4040.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.686822Z","level":"error","event":"25/07/11 16:16:16 INFO SparkContext: Added JAR /opt/spark/jars/hadoop-aws-3.4.1.jar at spark://90756e632957:44419/jars/hadoop-aws-3.4.1.jar with timestamp 1752250575509","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.689560Z","level":"error","event":"25/07/11 16:16:16 ERROR SparkContext: Failed to add /opt/spark/jars/core-2.20.158.jar to Spark environment","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.690726Z","level":"error","event":"java.io.FileNotFoundException: Jar /opt/spark/jars/core-2.20.158.jar not found","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.691361Z","level":"error","event":"\tat org.apache.spark.SparkContext.addLocalJarFile$1(SparkContext.scala:2174)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.691893Z","level":"error","event":"\tat org.apache.spark.SparkContext.addJar(SparkContext.scala:2230)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.692285Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.692637Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15$adapted(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.693077Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.693456Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.693756Z","level":"error","event":"\tat scala.collection.AbstractIterable.foreach(Iterable.scala:935)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.694021Z","level":"error","event":"\tat org.apache.spark.SparkContext.<init>(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.694838Z","level":"error","event":"\tat org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.695167Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.695462Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.695728Z","level":"error","event":"\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.695988Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.696254Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.696545Z","level":"error","event":"\tat py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.696796Z","level":"error","event":"\tat py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.697044Z","level":"error","event":"\tat py4j.Gateway.invoke(Gateway.java:238)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.697297Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.699196Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.700243Z","level":"error","event":"\tat py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.700815Z","level":"error","event":"\tat py4j.ClientServerConnection.run(ClientServerConnection.java:108)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.701234Z","level":"error","event":"\tat java.base/java.lang.Thread.run(Thread.java:840)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.701655Z","level":"error","event":"25/07/11 16:16:16 ERROR SparkContext: Failed to add /opt/spark/jars/auth-2.20.158.jar to Spark environment","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.701967Z","level":"error","event":"java.io.FileNotFoundException: Jar /opt/spark/jars/auth-2.20.158.jar not found","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.702264Z","level":"error","event":"\tat org.apache.spark.SparkContext.addLocalJarFile$1(SparkContext.scala:2174)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.702672Z","level":"error","event":"\tat org.apache.spark.SparkContext.addJar(SparkContext.scala:2230)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.702949Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.703288Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15$adapted(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.704097Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.704481Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.704757Z","level":"error","event":"\tat scala.collection.AbstractIterable.foreach(Iterable.scala:935)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.705073Z","level":"error","event":"\tat org.apache.spark.SparkContext.<init>(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.705363Z","level":"error","event":"\tat org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.706199Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.706697Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.707386Z","level":"error","event":"\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.709111Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.709888Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.710499Z","level":"error","event":"\tat py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.711766Z","level":"error","event":"\tat py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.712313Z","level":"error","event":"\tat py4j.Gateway.invoke(Gateway.java:238)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.712696Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.713592Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.714132Z","level":"error","event":"\tat py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.715534Z","level":"error","event":"\tat py4j.ClientServerConnection.run(ClientServerConnection.java:108)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.715951Z","level":"error","event":"\tat java.base/java.lang.Thread.run(Thread.java:840)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.716563Z","level":"error","event":"25/07/11 16:16:16 ERROR SparkContext: Failed to add /opt/spark/jars/s3-2.20.158.jar to Spark environment","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.717185Z","level":"error","event":"java.io.FileNotFoundException: Jar /opt/spark/jars/s3-2.20.158.jar not found","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.717719Z","level":"error","event":"\tat org.apache.spark.SparkContext.addLocalJarFile$1(SparkContext.scala:2174)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.718285Z","level":"error","event":"\tat org.apache.spark.SparkContext.addJar(SparkContext.scala:2230)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.718604Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.718946Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15$adapted(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.719346Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.719701Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.720170Z","level":"error","event":"\tat scala.collection.AbstractIterable.foreach(Iterable.scala:935)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.720657Z","level":"error","event":"\tat org.apache.spark.SparkContext.<init>(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.721924Z","level":"error","event":"\tat org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.724972Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.726112Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.726648Z","level":"error","event":"\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.727337Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.727705Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.728083Z","level":"error","event":"\tat py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.728448Z","level":"error","event":"\tat py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.728953Z","level":"error","event":"\tat py4j.Gateway.invoke(Gateway.java:238)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.729243Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.729535Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.732999Z","level":"error","event":"\tat py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.736149Z","level":"error","event":"\tat py4j.ClientServerConnection.run(ClientServerConnection.java:108)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.736734Z","level":"error","event":"\tat java.base/java.lang.Thread.run(Thread.java:840)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.740414Z","level":"error","event":"25/07/11 16:16:16 ERROR SparkContext: Failed to add /opt/spark/jars/utils-2.20.158.jar to Spark environment","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.741551Z","level":"error","event":"java.io.FileNotFoundException: Jar /opt/spark/jars/utils-2.20.158.jar not found","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.746967Z","level":"error","event":"\tat org.apache.spark.SparkContext.addLocalJarFile$1(SparkContext.scala:2174)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.747874Z","level":"error","event":"\tat org.apache.spark.SparkContext.addJar(SparkContext.scala:2230)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.750200Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.750715Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15$adapted(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.751297Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.751678Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.752086Z","level":"error","event":"\tat scala.collection.AbstractIterable.foreach(Iterable.scala:935)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.752543Z","level":"error","event":"\tat org.apache.spark.SparkContext.<init>(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.753455Z","level":"error","event":"\tat org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.754236Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.755765Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.756577Z","level":"error","event":"\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.759077Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.759541Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.760033Z","level":"error","event":"\tat py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.760406Z","level":"error","event":"\tat py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.760863Z","level":"error","event":"\tat py4j.Gateway.invoke(Gateway.java:238)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.761432Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.761754Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.762042Z","level":"error","event":"\tat py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.762376Z","level":"error","event":"\tat py4j.ClientServerConnection.run(ClientServerConnection.java:108)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.762699Z","level":"error","event":"\tat java.base/java.lang.Thread.run(Thread.java:840)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.762945Z","level":"error","event":"25/07/11 16:16:16 ERROR SparkContext: Failed to add /opt/spark/jars/awscore-2.20.158.jar to Spark environment","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.763235Z","level":"error","event":"java.io.FileNotFoundException: Jar /opt/spark/jars/awscore-2.20.158.jar not found","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.763540Z","level":"error","event":"\tat org.apache.spark.SparkContext.addLocalJarFile$1(SparkContext.scala:2174)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.763908Z","level":"error","event":"\tat org.apache.spark.SparkContext.addJar(SparkContext.scala:2230)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.764167Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.764407Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15$adapted(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.764703Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.765094Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.765357Z","level":"error","event":"\tat scala.collection.AbstractIterable.foreach(Iterable.scala:935)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.765663Z","level":"error","event":"\tat org.apache.spark.SparkContext.<init>(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.765921Z","level":"error","event":"\tat org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.766184Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.766464Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.766852Z","level":"error","event":"\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.767118Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.767391Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.767634Z","level":"error","event":"\tat py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.767938Z","level":"error","event":"\tat py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.768255Z","level":"error","event":"\tat py4j.Gateway.invoke(Gateway.java:238)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.768799Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.769173Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.769554Z","level":"error","event":"\tat py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.769854Z","level":"error","event":"\tat py4j.ClientServerConnection.run(ClientServerConnection.java:108)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.770122Z","level":"error","event":"\tat java.base/java.lang.Thread.run(Thread.java:840)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.770382Z","level":"error","event":"25/07/11 16:16:16 ERROR SparkContext: Failed to add /opt/spark/jars/sdk-core-2.20.158.jar to Spark environment","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.770920Z","level":"error","event":"java.io.FileNotFoundException: Jar /opt/spark/jars/sdk-core-2.20.158.jar not found","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.771482Z","level":"error","event":"\tat org.apache.spark.SparkContext.addLocalJarFile$1(SparkContext.scala:2174)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.771920Z","level":"error","event":"\tat org.apache.spark.SparkContext.addJar(SparkContext.scala:2230)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.772255Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.772699Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15$adapted(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.773042Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.773505Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.773877Z","level":"error","event":"\tat scala.collection.AbstractIterable.foreach(Iterable.scala:935)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.774276Z","level":"error","event":"\tat org.apache.spark.SparkContext.<init>(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.774562Z","level":"error","event":"\tat org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.774809Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.775065Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.775319Z","level":"error","event":"\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.775579Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.775829Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.776056Z","level":"error","event":"\tat py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.776278Z","level":"error","event":"\tat py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.776522Z","level":"error","event":"\tat py4j.Gateway.invoke(Gateway.java:238)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.776762Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.776990Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.777226Z","level":"error","event":"\tat py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.777494Z","level":"error","event":"\tat py4j.ClientServerConnection.run(ClientServerConnection.java:108)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.777706Z","level":"error","event":"\tat java.base/java.lang.Thread.run(Thread.java:840)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.777913Z","level":"error","event":"25/07/11 16:16:16 ERROR SparkContext: Failed to add /opt/spark/jars/http-client-spi-2.20.158.jar to Spark environment","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.778121Z","level":"error","event":"java.io.FileNotFoundException: Jar /opt/spark/jars/http-client-spi-2.20.158.jar not found","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.778358Z","level":"error","event":"\tat org.apache.spark.SparkContext.addLocalJarFile$1(SparkContext.scala:2174)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.778566Z","level":"error","event":"\tat org.apache.spark.SparkContext.addJar(SparkContext.scala:2230)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.778831Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.779065Z","level":"error","event":"\tat org.apache.spark.SparkContext.$anonfun$new$15$adapted(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.779293Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.779526Z","level":"error","event":"\tat scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.779773Z","level":"error","event":"\tat scala.collection.AbstractIterable.foreach(Iterable.scala:935)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.780058Z","level":"error","event":"\tat org.apache.spark.SparkContext.<init>(SparkContext.scala:538)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.780298Z","level":"error","event":"\tat org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.780536Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.780762Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.781159Z","level":"error","event":"\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.781560Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.781971Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.782236Z","level":"error","event":"\tat py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.782516Z","level":"error","event":"\tat py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.782816Z","level":"error","event":"\tat py4j.Gateway.invoke(Gateway.java:238)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.783057Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.783309Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.783582Z","level":"error","event":"\tat py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.783868Z","level":"error","event":"\tat py4j.ClientServerConnection.run(ClientServerConnection.java:108)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.784069Z","level":"error","event":"\tat java.base/java.lang.Thread.run(Thread.java:840)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.784310Z","level":"error","event":"25/07/11 16:16:16 INFO SparkContext: Added JAR /opt/spark/jars/ojdbc11.jar at spark://90756e632957:44419/jars/ojdbc11.jar with timestamp 1752250575509","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.784550Z","level":"error","event":"25/07/11 16:16:16 INFO SecurityManager: Changing view acls to: airflow","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.784807Z","level":"error","event":"25/07/11 16:16:16 INFO SecurityManager: Changing modify acls to: airflow","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.785036Z","level":"error","event":"25/07/11 16:16:16 INFO SecurityManager: Changing view acls groups to: airflow","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.785244Z","level":"error","event":"25/07/11 16:16:16 INFO SecurityManager: Changing modify acls groups to: airflow","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.785454Z","level":"error","event":"25/07/11 16:16:16 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: airflow groups with view permissions: EMPTY; users with modify permissions: airflow; groups with modify permissions: EMPTY; RPC SSL disabled","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.965027Z","level":"error","event":"25/07/11 16:16:16 INFO Executor: Starting executor ID driver on host 90756e632957","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.965812Z","level":"error","event":"25/07/11 16:16:16 INFO Executor: OS info Linux, 5.15.167.4-microsoft-standard-WSL2, amd64","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.966427Z","level":"error","event":"25/07/11 16:16:16 INFO Executor: Java version 17.0.15","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.982698Z","level":"error","event":"25/07/11 16:16:16 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): 'file:/opt/spark/jars/ojdbc11.jar,file:/opt/airflow/ojdbc11.jar'","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:16.985320Z","level":"error","event":"25/07/11 16:16:16 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@6af1213f for default.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:17.018357Z","level":"error","event":"25/07/11 16:16:17 INFO Executor: Fetching spark://90756e632957:44419/jars/hadoop-aws-3.4.1.jar with timestamp 1752250575509","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:17.097910Z","level":"error","event":"25/07/11 16:16:17 INFO TransportClientFactory: Successfully created connection to 90756e632957/172.18.0.13:44419 after 40 ms (0 ms spent in bootstraps)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:17.105340Z","level":"error","event":"25/07/11 16:16:17 INFO Utils: Fetching spark://90756e632957:44419/jars/hadoop-aws-3.4.1.jar to /tmp/spark-3a07ae88-1581-4307-8034-daa7ab9dd054/userFiles-ca207d80-ed2c-42d2-bc6b-a3bd23a92553/fetchFileTemp12132367829639208769.tmp","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:17.146010Z","level":"error","event":"25/07/11 16:16:17 INFO Executor: Adding file:/tmp/spark-3a07ae88-1581-4307-8034-daa7ab9dd054/userFiles-ca207d80-ed2c-42d2-bc6b-a3bd23a92553/hadoop-aws-3.4.1.jar to class loader default","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:17.160986Z","level":"error","event":"25/07/11 16:16:17 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 37089.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:17.161679Z","level":"error","event":"25/07/11 16:16:17 INFO NettyBlockTransferService: Server created on 90756e632957:37089","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:17.164180Z","level":"error","event":"25/07/11 16:16:17 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:17.183223Z","level":"error","event":"25/07/11 16:16:17 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 90756e632957, 37089, None)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:17.189486Z","level":"error","event":"25/07/11 16:16:17 INFO BlockManagerMasterEndpoint: Registering block manager 90756e632957:37089 with 434.4 MiB RAM, BlockManagerId(driver, 90756e632957, 37089, None)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:17.193488Z","level":"error","event":"25/07/11 16:16:17 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 90756e632957, 37089, None)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:17.195009Z","level":"error","event":"25/07/11 16:16:17 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 90756e632957, 37089, None)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:20.747271Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T16:16:20.747865Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T16:16:20.748283Z","level":"info","event":"Current task name:data_mino","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T16:16:20.748560Z","level":"info","event":"Dag name:etl_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.206845Z","level":"info","event":"Upload thành công: /opt/airflow/dataset/weather_data.json lên bucket weather-data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.208262","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-11T16:16:21.248207Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.248874Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.249285Z","level":"info","event":"Task operator:<Task(PythonOperator): data_mino>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.252217Z","level":"error","event":"25/07/11 16:16:21 INFO SparkContext: Invoking stop() from shutdown hook","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.254911Z","level":"error","event":"25/07/11 16:16:21 INFO SparkContext: SparkContext is stopping with exitCode 0 from run at Executors.java:539.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.267901Z","level":"error","event":"25/07/11 16:16:21 INFO SparkUI: Stopped Spark web UI at http://90756e632957:4040","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.278919Z","level":"error","event":"25/07/11 16:16:21 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.298362Z","level":"error","event":"25/07/11 16:16:21 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.299538Z","level":"error","event":"25/07/11 16:16:21 INFO MemoryStore: MemoryStore cleared","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.300057Z","level":"error","event":"25/07/11 16:16:21 INFO BlockManager: BlockManager stopped","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.307304Z","level":"error","event":"25/07/11 16:16:21 INFO BlockManagerMaster: BlockManagerMaster stopped","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.310202Z","level":"error","event":"25/07/11 16:16:21 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.321359Z","level":"error","event":"25/07/11 16:16:21 INFO SparkContext: Successfully stopped SparkContext","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.321817Z","level":"error","event":"25/07/11 16:16:21 INFO ShutdownHookManager: Shutdown hook called","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.322404Z","level":"error","event":"25/07/11 16:16:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-3a07ae88-1581-4307-8034-daa7ab9dd054/pyspark-b6674255-520d-45b9-b562-a2b5dfe383d5","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.329792Z","level":"error","event":"25/07/11 16:16:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-c0d0c542-0bf6-43f8-a884-d1e669c639f0","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-11T16:16:21.335765Z","level":"error","event":"25/07/11 16:16:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-3a07ae88-1581-4307-8034-daa7ab9dd054","chan":"stderr","logger":"task"}
