@@ -1,3 +1,13 @@
+# Giới thiệu 
+
+Đề bài: ETL dữ liệu thời tiết 
+
+Gọi api lấy dữ liệu dạng json trên trang https://openweathermap.org/
+
+Đẩy dữ liệu lên minIO bằng boto3
+
+Đọc và tải dữ liệu bằng spark vào oracle
+
 # CÀI ĐẶT
 
 docker-compose build --no-cache
@@ -9,6 +19,10 @@ docker-compose up
 #các thư viện cần trong python nằm trong requirements.txt
 
 # Lưu ý
+
+key api: tạo từ web
+
+quy đổi thời gian bằng https://www.epochconverter.com
 
 tài khoản airflow:
 
