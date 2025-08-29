@@ -12,6 +12,8 @@ Gọi api lấy dữ liệu dạng json trên trang https://openweathermap.org/
 
 <img width="1800" height="971" alt="image" src="https://github.com/user-attachments/assets/af6a8ad9-dd3a-4d68-97f6-958b972156fd" />
 
+<img width="691" height="385" alt="image" src="https://github.com/user-attachments/assets/562c55cc-ac05-439f-bb2e-0b8f2302b4c5" />
+
 
 # CÀI ĐẶT
 
