@@ -8,6 +8,11 @@ Gọi api lấy dữ liệu dạng json trên trang https://openweathermap.org/
 
 Đọc và tải dữ liệu bằng spark vào oracle
 
+<img width="1793" height="760" alt="image" src="https://github.com/user-attachments/assets/195217ee-a82e-4eaf-8bf8-41db874d9968" />
+
+<img width="1800" height="971" alt="image" src="https://github.com/user-attachments/assets/af6a8ad9-dd3a-4d68-97f6-958b972156fd" />
+
+
 # CÀI ĐẶT
 
 docker-compose build --no-cache
